@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T18:38:01+02:00",
+  "generatedAt": "2026-09-23T19:36:59+02:00",
   "sourceStatus": {
     "metricool": "connected",
     "clics": "tracking_issue"
@@ -18,7 +18,7 @@
   },
   "social": {
     "periodStart": "2026-09-17T00:00:00+02:00",
-    "periodEnd": "2026-09-23T18:38:01+02:00",
+    "periodEnd": "2026-09-23T19:36:59+02:00",
     "instagram": {
       "reach": 4,
       "interactions": 0,
@@ -32,7 +32,7 @@
       "followersGained": 0
     },
     "linkedin": {
-      "impressions": 267,
+      "impressions": 270,
       "interactions": 30,
       "followers": null,
       "followersDelta": 0
