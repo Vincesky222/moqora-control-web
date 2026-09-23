@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<rect width="512" height="512" rx="112" fill="#FAFDFB"/>
-<path d="M115 338V182c0-49 40-89 89-89h104c49 0 89 40 89 89v156" fill="none" stroke="#0E1310" stroke-width="24" stroke-linecap="round"/>
-<path d="M153 260c34-52 72-73 103-73s69 21 103 73" fill="none" stroke="#00B16C" stroke-width="18" stroke-linecap="round"/>
-<circle cx="256" cy="154" r="14" fill="#00B16C"/>
-<path d="M256 116l6 18 18 6-18 6-6 18-6-18-18-6 18-6z" fill="#00B16C"/>
-<text x="256" y="408" text-anchor="middle" font-family="Georgia,serif" font-size="64" font-weight="700" fill="#0E1310">M</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#FAFDFB"/><rect x="118" y="56" width="276" height="400" rx="138" fill="none" stroke="#021B15" stroke-width="18"/><path d="M244 454V330C238 259 194 204 150 174C225 184 270 242 276 320V454H244Z" fill="#031913"/><path d="M268 454V330C274 259 318 204 362 174C287 184 242 242 236 320V454H268Z" fill="#00B16C"/><path d="M256 118L272 166L320 182L272 198L256 246L240 198L192 182L240 166L256 118Z" fill="#00B16C"/></svg>
