@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-09-23T10:05:00+02:00",
+  "sourceStatus": {
+    "metricool": "connected",
+    "clics": "tracking_issue"
+  },
+  "website": {
+    "domain": "moqora.com",
+    "period": "last7days",
+    "visitors": 0,
+    "visits": 0,
+    "pageviews": 0,
+    "bounceRate": 0,
+    "visitDurationSeconds": 0,
+    "viewsPerVisit": 0,
+    "conversionRate": null,
+    "note": "Clics remonte actuellement 0 sur toute la période ; considérer le tracking comme non validé tant que l’installation n’est pas vérifiée."
+  },
+  "social": {
+    "periodStart": "2026-09-16T00:00:00+02:00",
+    "periodEnd": "2026-09-23T10:05:00+02:00",
+    "instagram": {
+      "reach": 15,
+      "interactions": 0,
+      "followers": null,
+      "followersGained": 0
+    },
+    "facebook": {
+      "contentViews": 508,
+      "interactions": 0,
+      "followers": null,
+      "followersGained": 0
+    },
+    "linkedin": {
+      "impressions": 267,
+      "interactions": 30,
+      "followers": null,
+      "followersDelta": 0
+    }
+  },
+  "catalog": {
+    "internalManufacturers": 1000,
+    "publicManufacturers": 100,
+    "sectors": 6
+  }
+}
