@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#FAFDFB" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="MOQORA Control" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/icon-192.svg" />
+  <title>MOQORA Control</title>
+  <style>
+    :root{
+      --bg:#FAFDFB;--text:#0E1310;--accent:#00B16C;--muted:#6F7B74;
+      --card:#FFFFFF;--line:#E4ECE7;--soft:#EFF8F3;--warn:#FFF4E5;--danger:#FDECEC;
+      --shadow:0 10px 30px rgba(14,19,16,.07);--radius:22px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .app{max-width:520px;margin:0 auto;min-height:100vh;padding:20px 18px 92px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:42px;height:42px;border-radius:14px;background:var(--soft);display:grid;place-items:center;font-weight:800;color:var(--accent)}
+    .brand h1{font-family:Georgia,serif;font-size:22px;margin:0;letter-spacing:.4px}
+    .brand small{display:block;color:var(--muted);margin-top:2px}
+    .pill{font-size:12px;background:var(--soft);color:#087B50;padding:7px 10px;border-radius:999px;border:1px solid #D4EEE1}
+    section{display:none}
+    section.active{display:block}
+    .hero{background:linear-gradient(135deg,#FFFFFF 0%,#F1FAF5 100%);border:1px solid var(--line);border-radius:28px;padding:20px;box-shadow:var(--shadow);margin-bottom:16px}
+    .hero h2{margin:0 0 8px;font-size:24px}
+    .hero p{margin:0;color:var(--muted);line-height:1.45}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow)}
+    .card h3{font-size:14px;margin:0 0 8px;color:var(--muted);font-weight:600}
+    .kpi{font-size:28px;font-weight:800}
+    .delta{font-size:12px;color:var(--muted);margin-top:4px}
+    .score-wrap{display:flex;align-items:center;gap:16px}
+    .score{width:92px;height:92px;border-radius:50%;background:conic-gradient(var(--accent) 0 68%, #E7EFEA 68%);display:grid;place-items:center}
+    .score::after{content:"68";width:70px;height:70px;background:var(--card);border-radius:50%;display:grid;place-items:center;font-size:25px;font-weight:800}
+    .row{display:flex;justify-content:space-between;gap:12px;align-items:center}
+    .list{display:grid;gap:10px;margin-top:12px}
+    .item{display:flex;gap:12px;align-items:flex-start;padding:12px;border:1px solid var(--line);border-radius:16px;background:#fff}
+    .dot{width:10px;height:10px;border-radius:50%;margin-top:5px;background:var(--accent);flex:none}
+    .dot.warn{background:#E6A23C}.dot.danger{background:#E45757}
+    .item b{display:block;margin-bottom:3px}
+    .item span{color:var(--muted);font-size:13px}
+    .chip{padding:6px 9px;border-radius:999px;background:var(--soft);font-size:11px;color:#087B50}
+    .bar{height:9px;background:#E8F0EB;border-radius:999px;overflow:hidden;margin-top:8px}
+    .bar>i{display:block;height:100%;background:var(--accent);border-radius:999px}
+    .chart{height:150px;display:flex;gap:8px;align-items:end;padding-top:14px}
+    .chart i{flex:1;background:linear-gradient(#00B16C,#9DE6C7);border-radius:8px 8px 3px 3px;min-height:18px}
+    .title{font-size:18px;margin:20px 0 10px}
+    .post-card{background:#101612;color:white;border-radius:24px;padding:18px}
+    .post-card .chip{background:rgba(0,177,108,.18);color:#7EE6B7;display:inline-block}
+    .post-card p{line-height:1.45;color:#D8E0DB}
+    .cta{display:inline-block;margin-top:8px;padding:11px 14px;border-radius:14px;background:var(--accent);color:white;font-weight:700;text-decoration:none}
+    .nav{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:min(520px,100%);background:rgba(250,253,251,.96);backdrop-filter:blur(12px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(6,1fr);padding:8px 8px calc(8px + env(safe-area-inset-bottom));z-index:10}
+    .nav button{border:0;background:none;padding:8px 2px;color:var(--muted);font-size:10px}
+    .nav button.active{color:var(--accent);font-weight:700}
+    .nav .ico{font-size:19px;display:block;margin-bottom:2px}
+    .muted{color:var(--muted)}
+    .notice{font-size:12px;color:#7A5B1F;background:var(--warn);border:1px solid #F1D9AB;border-radius:14px;padding:10px 12px;margin-top:12px}
+    @media (min-width:700px){body{background:#F1F4F2}.app{background:var(--bg);box-shadow:0 0 60px rgba(0,0,0,.08)}}
+  </style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="brand">
+    <div class="logo">M</div>
+    <div><h1>MOQORA</h1><small>Control</small></div>
+  </div>
+  <div class="pill">V1 • Démo</div>
+</header>
+
+<section id="home" class="active">
+  <div class="hero">
+    <h2>Bonjour Vincent 👋</h2>
+    <p>Voici l’état de MOQORA aujourd’hui et les actions prioritaires à suivre.</p>
+    <div class="notice">Les données affichées sont des données de démonstration tant que Metricool et Clics ne sont pas connectés à l’app.</div>
+  </div>
+  <div class="card" style="margin-bottom:12px">
+    <h3>Score santé MOQORA</h3>
+    <div class="score-wrap">
+      <div class="score"></div>
+      <div><b>Bon potentiel</b><div class="muted" style="font-size:13px">Acquisition à renforcer, contenu régulier, tracking à finaliser.</div></div>
+    </div>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Visiteurs</h3><div class="kpi">—</div><div class="delta">Clics à connecter</div></div>
+    <div class="card"><h3>Portée sociale</h3><div class="kpi">—</div><div class="delta">Metricool à connecter</div></div>
+    <div class="card"><h3>Fabricants</h3><div class="kpi">1 000</div><div class="delta">interne • à publier</div></div>
+    <div class="card"><h3>Conversions</h3><div class="kpi">—</div><div class="delta">tracking requis</div></div>
+  </div>
+  <h3 class="title">Priorités du jour</h3>
+  <div class="list">
+    <div class="item"><span class="dot danger"></span><div><b>Finaliser le tracking Clics</b><span>Indispensable pour relier les posts aux visites.</span></div></div>
+    <div class="item"><span class="dot warn"></span><div><b>Mettre à jour le site</b><span>Ne pas communiquer publiquement “1 000 fabricants” avant mise en ligne.</span></div></div>
+    <div class="item"><span class="dot"></span><div><b>Publier le contenu du jour</b><span>Suivre les horaires recommandés par l’agent Social Growth.</span></div></div>
+  </div>
+</section>
+
+<section id="social">
+  <div class="hero"><h2>Social Growth</h2><p>Décisions éditoriales, contenu du jour et apprentissage des performances.</p></div>
+  <div class="post-card">
+    <span class="chip">Recommandation du jour</span>
+    <h2>Tester un Reel court</h2>
+    <p><b>Hook :</b> “Vous avez une idée de produit mais aucun fabricant ?”</p>
+    <p><b>Format :</b> 9:16 • 8–12 s • rythme rapide • CTA final MOQORA.</p>
+    <a class="cta" href="#">Voir le brief</a>
+  </div>
+  <h3 class="title">Signaux éditoriaux</h3>
+  <div class="grid">
+    <div class="card"><h3>Meilleur format</h3><div class="kpi" style="font-size:20px">À tester</div><div class="delta">Reel vs carrousel</div></div>
+    <div class="card"><h3>Meilleur hook</h3><div class="kpi" style="font-size:20px">Problème</div><div class="delta">angle entrepreneur</div></div>
+  </div>
+  <div class="card" style="margin-top:12px">
+    <div class="row"><h3 style="margin:0">Score des posts</h3><span class="chip">démo</span></div>
+    <div class="list">
+      <div class="item"><span class="dot"></span><div style="flex:1"><b>Post 5 — Valeur MOQORA</b><div class="bar"><i style="width:62%"></i></div></div><b>62</b></div>
+      <div class="item"><span class="dot warn"></span><div style="flex:1"><b>Post 4 — Parcours échantillon</b><div class="bar"><i style="width:48%"></i></div></div><b>48</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="analytics">
+  <div class="hero"><h2>Analytics</h2><p>Trafic, sources et qualité des visites provenant des réseaux.</p></div>
+  <div class="grid">
+    <div class="card"><h3>Visiteurs 7 j</h3><div class="kpi">—</div></div>
+    <div class="card"><h3>Pages vues</h3><div class="kpi">—</div></div>
+  </div>
+  <div class="card" style="margin-top:12px">
+    <div class="row"><h3 style="margin:0">Trafic 7 jours</h3><span class="chip">Clics</span></div>
+    <div class="chart"><i style="height:24%"></i><i style="height:40%"></i><i style="height:32%"></i><i style="height:58%"></i><i style="height:50%"></i><i style="height:72%"></i><i style="height:64%"></i></div>
+    <div class="notice">Graphique illustratif tant que le connecteur Clics n’alimente pas l’app.</div>
+  </div>
+  <h3 class="title">UTM suivis</h3>
+  <div class="list">
+    <div class="item"><span class="dot"></span><div><b>Instagram</b><span>utm_source=instagram • utm_medium=social</span></div></div>
+    <div class="item"><span class="dot"></span><div><b>Facebook</b><span>utm_source=facebook • utm_medium=social</span></div></div>
+    <div class="item"><span class="dot"></span><div><b>LinkedIn</b><span>utm_source=linkedin • utm_medium=social</span></div></div>
+  </div>
+</section>
+
+<section id="networks">
+  <div class="hero"><h2>Réseaux</h2><p>Vue unifiée Instagram, Facebook et LinkedIn.</p></div>
+  <div class="list">
+    <div class="item"><div class="logo">IG</div><div style="flex:1"><b>Instagram</b><span>Portée, interactions, sauvegardes, follows</span><div class="bar"><i style="width:36%"></i></div></div></div>
+    <div class="item"><div class="logo">FB</div><div style="flex:1"><b>Facebook</b><span>Impressions, reach, clics, réactions</span><div class="bar"><i style="width:22%"></i></div></div></div>
+    <div class="item"><div class="logo">LI</div><div style="flex:1"><b>LinkedIn</b><span>Impressions, clics, réactions, partages</span><div class="bar"><i style="width:44%"></i></div></div></div>
+  </div>
+  <div class="notice">Les barres sont illustratives. Les données réelles viendront de Metricool.</div>
+</section>
+
+<section id="catalog">
+  <div class="hero"><h2>Catalogue</h2><p>Progression de la base fabricants et qualité de qualification.</p></div>
+  <div class="grid">
+    <div class="card"><h3>Fabricants internes</h3><div class="kpi">1 000</div></div>
+    <div class="card"><h3>Publics sur le site</h3><div class="kpi">100</div><div class="delta">à mettre à jour</div></div>
+  </div>
+  <div class="card" style="margin-top:12px">
+    <h3>Progression publique</h3>
+    <div class="bar"><i style="width:10%"></i></div>
+    <div class="delta">100 / 1 000 actuellement visibles</div>
+  </div>
+  <h3 class="title">Secteurs</h3>
+  <div class="list">
+    <div class="item"><span class="dot"></span><div><b>Pet Care</b><span>Catalogue prioritaire historique</span></div></div>
+    <div class="item"><span class="dot"></span><div><b>Packaging</b><span>Fabricants européens</span></div></div>
+    <div class="item"><span class="dot"></span><div><b>Home Fragrance</b><span>Bougies & parfums d’intérieur</span></div></div>
+    <div class="item"><span class="dot"></span><div><b>Cosmetics</b><span>Private label & petites séries</span></div></div>
+  </div>
+</section>
+
+<section id="agent">
+  <div class="hero"><h2>Agent MOQORA</h2><p>La synthèse décisionnelle du Social Growth Agent.</p></div>
+  <div class="card">
+    <div class="row"><h3 style="margin:0">Décision du jour</h3><span class="chip">IA</span></div>
+    <h2 style="margin-bottom:8px">Acquisition avant conversion</h2>
+    <p class="muted">L’audience est encore petite. Priorité à des formats découvrables et à la mesure fiable des visites.</p>
+  </div>
+  <h3 class="title">À retenir</h3>
+  <div class="list">
+    <div class="item"><span class="dot"></span><div><b>Tester Reel vs carrousel</b><span>Créer enfin un signal de comparaison de format.</span></div></div>
+    <div class="item"><span class="dot"></span><div><b>Éviter les répétitions</b><span>Alterner éducation, problème, produit, preuve, secteur.</span></div></div>
+    <div class="item"><span class="dot danger"></span><div><b>Tracking site</b><span>Ne pas interpréter 0 visite tant que Clics n’est pas validé.</span></div></div>
+  </div>
+</section>
+</div>
+
+<nav class="nav">
+  <button data-target="home" class="active"><span class="ico">⌂</span>Accueil</button>
+  <button data-target="social"><span class="ico">◉</span>Social</button>
+  <button data-target="analytics"><span class="ico">⌁</span>Trafic</button>
+  <button data-target="networks"><span class="ico">◎</span>Réseaux</button>
+  <button data-target="catalog"><span class="ico">▦</span>Catalogue</button>
+  <button data-target="agent"><span class="ico">✦</span>Agent</button>
+</nav>
+
+<script>
+  document.querySelectorAll('.nav button').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('active'));
+      document.querySelectorAll('section').forEach(s=>s.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(btn.dataset.target).classList.add('active');
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  });
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');
+</script>
+</body>
+</html>
