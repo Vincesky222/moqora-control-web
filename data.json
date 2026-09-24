@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-24T17:37:19+02:00",
+  "generatedAt": "2026-09-24T18:34:45+02:00",
   "sourceStatus": {
-    "metricool": "connected_no_fresh_rows",
+    "metricool": "connected",
     "clics": "tracking_issue"
   },
   "website": {
@@ -18,7 +18,7 @@
   },
   "social": {
     "periodStart": "2026-09-18T00:00:00+02:00",
-    "periodEnd": "2026-09-24T17:37:19+02:00",
+    "periodEnd": "2026-09-24T18:34:45+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
@@ -37,7 +37,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Metricool n’a renvoyé aucune ligne fraîche pour les métriques demandées lors de cette synchronisation ; les dernières valeurs connues sont conservées afin d’éviter de les remplacer par des zéros non vérifiés."
+    "note": "Données Metricool synchronisées sur les 7 derniers jours complets disponibles."
   },
   "catalog": {
     "internalManufacturers": 1000,
