@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T07:35:44+02:00",
+  "generatedAt": "2026-09-24T08:39:06+02:00",
   "sourceStatus": {
     "metricool": "connected",
     "clics": "tracking_issue"
@@ -17,8 +17,8 @@
     "note": "Clics remonte actuellement 0 sur toute la période ; considérer le tracking comme non validé tant que l’installation n’est pas vérifiée."
   },
   "social": {
-    "periodStart": "2026-09-17T07:35:44+02:00",
-    "periodEnd": "2026-09-24T07:35:44+02:00",
+    "periodStart": "2026-09-17T08:39:06+02:00",
+    "periodEnd": "2026-09-24T08:39:06+02:00",
     "instagram": {
       "reach": 4,
       "interactions": 0,
