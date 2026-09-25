@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T02:38:08+02:00",
+  "generatedAt": "2026-09-25T03:40:19+02:00",
   "sourceStatus": {
-    "metricool": "connected_no_fresh_rows",
+    "metricool": "connected",
     "clics": "tracking_issue"
   },
   "website": {
@@ -17,8 +17,8 @@
     "note": "Clics remonte actuellement 0 sur toute la période ; considérer le tracking comme non validé tant que l’installation n’est pas vérifiée."
   },
   "social": {
-    "periodStart": "2026-09-18T02:38:08+02:00",
-    "periodEnd": "2026-09-25T02:38:08+02:00",
+    "periodStart": "2026-09-18T03:40:19+02:00",
+    "periodEnd": "2026-09-25T03:40:19+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
@@ -37,7 +37,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Metricool n’a renvoyé aucune ligne fraîche pour les métriques demandées lors de cette synchronisation ; les dernières valeurs connues sont conservées afin d’éviter de les remplacer par des zéros non vérifiés."
+    "note": "Données Metricool synchronisées sur les 7 derniers jours avec les métriques valides du catalogue Data Studio. Les valeurs nulles/non disponibles ne sont pas assimilées à des données réelles supplémentaires."
   },
   "catalog": {
     "internalManufacturers": 1000,
