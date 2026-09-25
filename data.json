@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T11:37:54+02:00",
+  "generatedAt": "2026-09-25T12:39:14+02:00",
   "sourceStatus": {
     "metricool": "connected",
     "clics": "tracking_issue"
@@ -17,8 +17,8 @@
     "note": "Clics remonte actuellement 0 sur toute la période ; considérer le tracking comme non validé tant que l’installation n’est pas vérifiée."
   },
   "social": {
-    "periodStart": "2026-09-18T11:37:54+02:00",
-    "periodEnd": "2026-09-25T11:37:54+02:00",
+    "periodStart": "2026-09-19T12:39:14+02:00",
+    "periodEnd": "2026-09-25T12:39:14+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
@@ -26,14 +26,14 @@
       "followersGained": 0
     },
     "facebook": {
-      "contentViews": 226,
+      "contentViews": 224,
       "interactions": 0,
       "followers": null,
       "followersGained": 0
     },
     "linkedin": {
-      "impressions": 44,
-      "interactions": 1,
+      "impressions": 28,
+      "interactions": 0,
       "followers": null,
       "followersDelta": 0
     },
