@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T22:35:57+02:00",
+  "generatedAt": "2026-09-25T23:39:38+02:00",
   "sourceStatus": {
     "metricool": "connected",
     "clics": "connected"
@@ -17,16 +17,16 @@
     "note": "Clics remonte du trafic réel sur les 7 derniers jours. Le taux de conversion reste indisponible (null)."
   },
   "social": {
-    "periodStart": "2026-09-19T22:35:57+02:00",
-    "periodEnd": "2026-09-25T22:35:57+02:00",
+    "periodStart": "2026-09-19T23:39:38+02:00",
+    "periodEnd": "2026-09-25T23:39:38+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
       "followers": null,
-      "followersGained": 0
+      "followersGained": 2
     },
     "facebook": {
-      "contentViews": 224,
+      "contentViews": 222,
       "interactions": 0,
       "followers": null,
       "followersGained": 0
