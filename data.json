@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-09-25T12:39:14+02:00",
+  "generatedAt": "2026-09-25T13:38:01+02:00",
   "sourceStatus": {
     "metricool": "connected",
-    "clics": "tracking_issue"
+    "clics": "connected"
   },
   "website": {
     "domain": "moqora.fr",
     "period": "last7days",
-    "visitors": 0,
-    "visits": 0,
-    "pageviews": 0,
-    "bounceRate": 0,
-    "visitDurationSeconds": 0,
-    "viewsPerVisit": 0,
+    "visitors": 15,
+    "visits": 15,
+    "pageviews": 33,
+    "bounceRate": 0.8,
+    "visitDurationSeconds": 2348.133333333333,
+    "viewsPerVisit": 2.2,
     "conversionRate": null,
-    "note": "Clics remonte actuellement 0 sur toute la période ; considérer le tracking comme non validé tant que l’installation n’est pas vérifiée."
+    "note": "Clics remonte désormais du trafic réel sur les 7 derniers jours. Le taux de conversion reste indisponible (null)."
   },
   "social": {
-    "periodStart": "2026-09-19T12:39:14+02:00",
-    "periodEnd": "2026-09-25T12:39:14+02:00",
+    "periodStart": "2026-09-19T13:38:01+02:00",
+    "periodEnd": "2026-09-25T13:38:01+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
