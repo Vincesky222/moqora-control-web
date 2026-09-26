@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-26T22:40:00+02:00",
+  "generatedAt": "2026-09-26T23:37:41+02:00",
   "sourceStatus": {
-    "metricool": "connected",
+    "metricool": "stale_last_success",
     "clics": "connected"
   },
   "website": {
@@ -18,7 +18,7 @@
   },
   "social": {
     "periodStart": "2026-09-20T00:00:00+02:00",
-    "periodEnd": "2026-09-26T22:40:00+02:00",
+    "periodEnd": "2026-09-26T23:37:41+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
@@ -37,7 +37,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Données Metricool réelles synchronisées sur les 7 derniers jours. Les métriques followers courants ne sont pas demandées dans ce flux et restent null."
+    "note": "Metricool n’a retourné aucune ligne lors de cette synchronisation. Dernière synchronisation sociale valide conservée afin de ne pas remplacer les données par de faux zéros."
   },
   "catalog": {
     "internalManufacturers": 1000,
