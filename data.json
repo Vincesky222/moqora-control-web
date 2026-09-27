@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T04:39:52+02:00",
+  "generatedAt": "2026-09-27T05:37:45+02:00",
   "sourceStatus": {
     "metricool": "stale_last_success",
     "clics": "connected"
@@ -7,12 +7,12 @@
   "website": {
     "domain": "moqora.fr",
     "period": "last7days",
-    "visitors": 23,
-    "visits": 23,
-    "pageviews": 41,
-    "bounceRate": 0.8695652173913043,
-    "visitDurationSeconds": 1531.391304347826,
-    "viewsPerVisit": 1.7826086956521738,
+    "visitors": 24,
+    "visits": 24,
+    "pageviews": 42,
+    "bounceRate": 0.875,
+    "visitDurationSeconds": 1467.5833333333333,
+    "viewsPerVisit": 1.75,
     "conversionRate": null,
     "note": "Clics remonte du trafic réel sur les 7 derniers jours. Le taux de conversion reste indisponible (null)."
   },
