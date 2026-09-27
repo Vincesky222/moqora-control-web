@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T07:39:54+02:00",
+  "generatedAt": "2026-09-27T08:36:08+02:00",
   "sourceStatus": {
-    "metricool": "stale_last_success",
+    "metricool": "connected",
     "clics": "connected"
   },
   "website": {
@@ -18,7 +18,7 @@
   },
   "social": {
     "periodStart": "2026-09-20T00:00:00+02:00",
-    "periodEnd": "2026-09-27T07:39:54+02:00",
+    "periodEnd": "2026-09-27T08:36:08+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
@@ -37,7 +37,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Metricool n'a retourné aucune ligne lors de cette synchronisation ; les dernières métriques sociales valides ont été conservées pour éviter de les remplacer par de faux zéros."
+    "note": "Metricool a retourné des données réelles sur la période. Totaux agrégés à partir des métriques officielles disponibles : Instagram reach/interactions/followers gained, Facebook content views/interactions/followers gained, LinkedIn account post impressions/interactions/new followers."
   },
   "catalog": {
     "internalManufacturers": 1000,
