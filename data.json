@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T06:40:19+02:00",
+  "generatedAt": "2026-09-27T07:39:54+02:00",
   "sourceStatus": {
-    "metricool": "connected",
+    "metricool": "stale_last_success",
     "clics": "connected"
   },
   "website": {
@@ -18,7 +18,7 @@
   },
   "social": {
     "periodStart": "2026-09-20T00:00:00+02:00",
-    "periodEnd": "2026-09-27T06:40:19+02:00",
+    "periodEnd": "2026-09-27T07:39:54+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
@@ -37,7 +37,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Metricool a retourné les métriques demandées sur les 7 derniers jours avec les identifiants Data Studio valides. Les champs followers courants ne sont pas requis par cette synchronisation et restent null."
+    "note": "Metricool n'a retourné aucune ligne lors de cette synchronisation ; les dernières métriques sociales valides ont été conservées pour éviter de les remplacer par de faux zéros."
   },
   "catalog": {
     "internalManufacturers": 1000,
