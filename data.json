@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T09:35:19+02:00",
+  "generatedAt": "2026-09-27T10:34:43+02:00",
   "sourceStatus": {
-    "metricool": "connected",
+    "metricool": "stale_last_success",
     "clics": "connected"
   },
   "website": {
@@ -37,7 +37,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Metricool a retourné des données réelles sur la période. Totaux agrégés à partir des métriques officielles disponibles : Instagram reach/interactions/followers gained, Facebook content views/interactions/followers gained, LinkedIn account post impressions/interactions/new followers."
+    "note": "Metricool n’a pas pu être rafraîchi lors de cette exécution ; conservation de la dernière synchronisation réelle réussie du 27/09/2026 à 09:35:19 Europe/Paris afin de ne pas remplacer les données par de faux zéros."
   },
   "catalog": {
     "internalManufacturers": 1000,
