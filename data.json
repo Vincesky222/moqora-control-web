@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T10:34:43+02:00",
+  "generatedAt": "2026-09-27T11:00:00+02:00",
   "sourceStatus": {
-    "metricool": "stale_last_success",
+    "metricool": "connected",
     "clics": "connected"
   },
   "website": {
@@ -18,7 +18,7 @@
   },
   "social": {
     "periodStart": "2026-09-21T00:00:00+02:00",
-    "periodEnd": "2026-09-27T09:35:19+02:00",
+    "periodEnd": "2026-09-27T11:00:00+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
@@ -26,7 +26,7 @@
       "followersGained": 0
     },
     "facebook": {
-      "contentViews": 6,
+      "contentViews": 7,
       "interactions": 0,
       "followers": null,
       "followersGained": 0
@@ -37,7 +37,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Metricool n’a pas pu être rafraîchi lors de cette exécution ; conservation de la dernière synchronisation réelle réussie du 27/09/2026 à 09:35:19 Europe/Paris afin de ne pas remplacer les données par de faux zéros."
+    "note": "Metricool synchronisé directement via les métriques disponibles pour le brand 7025620. Les valeurs null correspondent à des métriques non retournées par Metricool sur la période et ne sont pas converties artificiellement en zéro."
   },
   "catalog": {
     "internalManufacturers": 1000,
