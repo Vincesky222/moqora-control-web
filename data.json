@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-27T03:38:25+02:00",
+  "generatedAt": "2026-09-27T04:39:52+02:00",
   "sourceStatus": {
-    "metricool": "connected",
+    "metricool": "stale_last_success",
     "clics": "connected"
   },
   "website": {
     "domain": "moqora.fr",
     "period": "last7days",
-    "visitors": 22,
-    "visits": 22,
-    "pageviews": 40,
-    "bounceRate": 0.8636363636363636,
-    "visitDurationSeconds": 1601,
-    "viewsPerVisit": 1.8181818181818181,
+    "visitors": 23,
+    "visits": 23,
+    "pageviews": 41,
+    "bounceRate": 0.8695652173913043,
+    "visitDurationSeconds": 1531.391304347826,
+    "viewsPerVisit": 1.7826086956521738,
     "conversionRate": null,
     "note": "Clics remonte du trafic réel sur les 7 derniers jours. Le taux de conversion reste indisponible (null)."
   },
@@ -37,7 +37,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Metricool a répondu avec les métriques valides du catalogue Data Studio sur la période : Instagram reach/interactions/followers gained, Facebook content views/interactions/followers acquired, LinkedIn account post impressions/interactions/new followers. Les valeurs nulles quotidiennes ont été traitées comme absence de valeur, et les agrégats numériques disponibles ont été additionnés selon leur type SUM."
+    "note": "Metricool n'a retourné aucune ligne lors de cette synchronisation. Les dernières métriques sociales valides ont été conservées afin de ne pas les remplacer par de faux zéros."
   },
   "catalog": {
     "internalManufacturers": 1000,
