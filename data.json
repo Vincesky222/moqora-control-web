@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T01:39:29+02:00",
+  "generatedAt": "2026-09-27T02:40:29+02:00",
   "sourceStatus": {
-    "metricool": "stale_last_success",
+    "metricool": "connected",
     "clics": "connected"
   },
   "website": {
@@ -17,8 +17,8 @@
     "note": "Clics remonte du trafic réel sur les 7 derniers jours. Le taux de conversion reste indisponible (null)."
   },
   "social": {
-    "periodStart": "2026-09-20T01:39:29+02:00",
-    "periodEnd": "2026-09-27T01:39:29+02:00",
+    "periodStart": "2026-09-20T00:00:00+02:00",
+    "periodEnd": "2026-09-27T02:40:29+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
@@ -37,7 +37,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Metricool n’a retourné aucune ligne lors de cette synchronisation. Dernière synchronisation sociale valide conservée afin de ne pas remplacer les données par de faux zéros."
+    "note": "Metricool a répondu avec les métriques valides du catalogue Data Studio sur la période : Instagram reach/interactions/followers gained, Facebook content views/interactions/followers acquired, LinkedIn account post impressions/interactions/new followers. Les valeurs nulles quotidiennes ont été traitées comme absence de valeur, et les agrégats numériques disponibles ont été additionnés selon leur type SUM."
   },
   "catalog": {
     "internalManufacturers": 1000,
