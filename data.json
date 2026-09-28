@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T11:38:56+02:00",
+  "generatedAt": "2026-09-28T11:45:00+02:00",
   "sourceStatus": {
     "metricool": "connected",
     "clics": "connected"
@@ -28,7 +28,7 @@
       "followersGained": 0
     },
     "facebook": {
-      "contentViews": 2,
+      "contentViews": 7,
       "interactions": 0,
       "followers": null,
       "followersGained": 0
