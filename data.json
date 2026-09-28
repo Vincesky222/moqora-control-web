@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T08:39:51+02:00",
+  "generatedAt": "2026-09-28T09:36:46+02:00",
   "sourceStatus": {
     "metricool": "connected",
     "clics": "connected"
@@ -14,9 +14,8 @@
     "visitDurationSeconds": 1304.5185185185185,
     "viewsPerVisit": 1.6666666666666667,
     "conversionRate": null,
-    "note": "Trafic mesuré par Clics sur les 7 derniers jours pour moqora.fr. Conversion indisponible ; aucun objectif de production configuré lors de la collecte. Les taux sont des fractions entre 0 et 1 et la durée est en secondes.",
+    "note": "Trafic mesuré par Clics sur les 7 derniers jours pour moqora.fr. Conversion indisponible (null). Les taux sont des fractions entre 0 et 1 et la durée est en secondes.",
     "timezone": "Europe/Paris",
-    "fetchedAt": "2026-09-28T06:42:57Z",
     "projectId": "j970816g1aq74sd85rq4n83dz98esp3m"
   },
   "social": {
@@ -29,7 +28,7 @@
       "followersGained": 0
     },
     "facebook": {
-      "contentViews": 4,
+      "contentViews": 2,
       "interactions": 0,
       "followers": null,
       "followersGained": 0
