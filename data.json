@@ -14,7 +14,10 @@
     "visitDurationSeconds": 1304.5185185185185,
     "viewsPerVisit": 1.6666666666666667,
     "conversionRate": null,
-    "note": "Clics remonte du trafic réel sur les 7 derniers jours. Le taux de conversion reste indisponible (null)."
+    "note": "Trafic mesuré par Clics sur les 7 derniers jours pour moqora.fr. Conversion indisponible ; aucun objectif de production configuré lors de la collecte. Les taux sont des fractions entre 0 et 1 et la durée est en secondes.",
+    "timezone": "Europe/Paris",
+    "fetchedAt": "2026-09-28T06:42:57Z",
+    "projectId": "j970816g1aq74sd85rq4n83dz98esp3m"
   },
   "social": {
     "periodStart": "2026-09-22T00:00:00+02:00",
