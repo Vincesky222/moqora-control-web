@@ -19,8 +19,8 @@
     "projectId": "j970816g1aq74sd85rq4n83dz98esp3m"
   },
   "social": {
-    "periodStart": "2026-09-24T00:00:00+02:00",
-    "periodEnd": "2026-10-01T03:35:30+02:00",
+    "periodStart": "2026-09-25T00:00:00+02:00",
+    "periodEnd": "2026-10-01T23:59:59+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
@@ -28,14 +28,14 @@
       "followersGained": 0
     },
     "facebook": {
-      "contentViews": 4,
+      "contentViews": 2,
       "interactions": 0,
       "followers": null,
       "followersGained": 0
     },
     "linkedin": {
-      "impressions": 33,
-      "interactions": 6,
+      "impressions": 27,
+      "interactions": 1,
       "followers": null,
       "followersDelta": 0
     },
