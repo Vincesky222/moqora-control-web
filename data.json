@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T11:34:57+02:00",
+  "generatedAt": "2026-10-01T12:37:14+02:00",
   "sourceStatus": {
     "metricool": "connected",
     "clics": "connected"
@@ -19,23 +19,23 @@
     "projectId": "j970816g1aq74sd85rq4n83dz98esp3m"
   },
   "social": {
-    "periodStart": "2026-09-25T00:00:00+02:00",
-    "periodEnd": "2026-10-01T11:34:57+02:00",
+    "periodStart": "2026-09-24T12:37:14+02:00",
+    "periodEnd": "2026-10-01T12:37:14+02:00",
     "instagram": {
       "reach": 0,
       "interactions": 0,
       "followers": null,
-      "followersGained": 2
+      "followersGained": 0
     },
     "facebook": {
-      "contentViews": 2,
+      "contentViews": 6,
       "interactions": 0,
       "followers": null,
       "followersGained": 0
     },
     "linkedin": {
-      "impressions": 27,
-      "interactions": 1,
+      "impressions": 33,
+      "interactions": 6,
       "followers": null,
       "followersDelta": 0
     },
