@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T23:15:25+02:00",
+  "generatedAt": "2026-10-02T23:20:00+02:00",
   "sourceStatus": {
     "windsor": "connected",
     "clics": "connected"
@@ -20,15 +20,15 @@
   },
   "social": {
     "periodStart": "2026-09-26T00:00:00+02:00",
-    "periodEnd": "2026-10-02T23:15:25+02:00",
+    "periodEnd": "2026-10-02T23:20:00+02:00",
     "source": "windsor.ai",
     "instagram": {
       "account": "moqora_eu",
-      "reach": 4,
+      "reach": 5,
       "views": 19,
       "interactions": 2,
       "followers": null,
-      "followersGained": 0
+      "followersGained": null
     },
     "facebook": {
       "account": "Moqora",
@@ -47,7 +47,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Réseaux sociaux synchronisés depuis Windsor.ai : Instagram moqora_eu, Facebook Organic Moqora et LinkedIn Organic Moqora. Les valeurs null correspondent à des métriques non fiables ou non retournées et ne sont pas transformées artificiellement en zéro."
+    "note": "Réseaux sociaux synchronisés exclusivement depuis Windsor.ai : Instagram moqora_eu, Facebook Organic Moqora et LinkedIn Organic Moqora. Les valeurs absentes ou non fiables restent null et ne sont pas transformées artificiellement en zéro."
   },
   "catalog": {
     "internalManufacturers": 1000,
