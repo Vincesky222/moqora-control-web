@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T22:42:12+02:00",
+  "generatedAt": "2026-10-02T22:59:30+02:00",
   "sourceStatus": {
     "metricool": "connected",
     "clics": "connected"
@@ -43,7 +43,8 @@
   },
   "catalog": {
     "internalManufacturers": 1000,
-    "publicManufacturers": 100,
+    "publicManufacturers": 590,
+    "unpublishedManufacturers": 410,
     "sectors": 6
   }
 }
