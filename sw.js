@@ -1,4 +1,4 @@
-const CACHE='moqora-control-v5';
+const CACHE='moqora-control-v6';
 const STATIC=['./','./index.html','./manifest.webmanifest','./icons/icon-192.svg','./icons/icon-512.svg'];
 self.addEventListener('install',event=>{
   self.skipWaiting();
@@ -18,7 +18,6 @@ self.addEventListener('fetch',event=>{
       try{
         const response=await fetch(event.request,{cache:'no-store'});
         if(!response.ok)throw new Error('Network response unavailable');
-        // Never replace the last usable snapshot with malformed JSON.
         if(isData)await response.clone().json();
         await cache.put(key,response.clone());
         return response;
