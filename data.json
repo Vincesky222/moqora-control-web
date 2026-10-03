@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T08:00:00+02:00",
+  "generatedAt": "2026-10-03T09:00:00+02:00",
   "sourceStatus": {
     "windsor": "connected",
     "clics": "connected"
@@ -36,7 +36,7 @@
       "impressions": 6,
       "pageViews": 0,
       "interactions": 0,
-      "followers": 0,
+      "followers": null,
       "followersGained": 0
     },
     "linkedin": {
@@ -44,10 +44,10 @@
       "impressions": 19,
       "interactions": 1,
       "pageViews": 0,
-      "followers": 0,
+      "followers": null,
       "followersDelta": 0
     },
-    "note": "Réseaux sociaux synchronisés exclusivement depuis Windsor.ai : Instagram moqora_eu, Facebook Organic Moqora et LinkedIn Organic Moqora. Les valeurs absentes ou non fiables restent null et ne sont pas transformées artificiellement en zéro."
+    "note": "Réseaux sociaux synchronisés exclusivement depuis Windsor.ai : Instagram moqora_eu, Facebook Organic Moqora et LinkedIn Organic Moqora. Les compteurs de followers retournés à 0 par les champs lifetime alors que leur fiabilité est incertaine sont conservés à null ; les métriques journalières réellement retournées à zéro restent à 0."
   },
   "catalog": {
     "internalManufacturers": 1000,
