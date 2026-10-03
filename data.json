@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T09:00:00+02:00",
+  "generatedAt": "2026-10-03T10:00:00+02:00",
   "sourceStatus": {
     "windsor": "connected",
     "clics": "connected"
@@ -7,12 +7,12 @@
   "website": {
     "domain": "moqora.fr",
     "period": "last7days",
-    "visitors": 23,
-    "visits": 23,
-    "pageviews": 33,
-    "bounceRate": 0.8695652173913043,
-    "visitDurationSeconds": 910.8695652173913,
-    "viewsPerVisit": 1.434782608695652,
+    "visitors": 24,
+    "visits": 24,
+    "pageviews": 34,
+    "bounceRate": 0.875,
+    "visitDurationSeconds": 872.9166666666666,
+    "viewsPerVisit": 1.4166666666666667,
     "conversionRate": null,
     "note": "Trafic mesuré par Clics sur les 7 derniers jours pour moqora.fr. Conversion indisponible (null). Les taux sont des fractions entre 0 et 1 et la durée est en secondes.",
     "timezone": "Europe/Paris",
@@ -47,7 +47,7 @@
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Réseaux sociaux synchronisés exclusivement depuis Windsor.ai : Instagram moqora_eu, Facebook Organic Moqora et LinkedIn Organic Moqora. Les compteurs de followers retournés à 0 par les champs lifetime alors que leur fiabilité est incertaine sont conservés à null ; les métriques journalières réellement retournées à zéro restent à 0."
+    "note": "Réseaux sociaux synchronisés exclusivement depuis Windsor.ai : Instagram moqora_eu, Facebook Organic Moqora et LinkedIn Organic Moqora. Les compteurs lifetime retournés à 0 alors que leur fiabilité est incertaine sont conservés à null ; les métriques journalières réellement retournées à zéro restent à 0."
   },
   "catalog": {
     "internalManufacturers": 1000,
