@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T04:00:00+02:00",
+  "generatedAt": "2026-10-03T07:33:48+02:00",
   "sourceStatus": {
     "windsor": "connected",
     "clics": "connected"
@@ -19,8 +19,8 @@
     "projectId": "j970816g1aq74sd85rq4n83dz98esp3m"
   },
   "social": {
-    "periodStart": "2026-09-26",
-    "periodEnd": "2026-10-02",
+    "periodStart": "2026-09-27",
+    "periodEnd": "2026-10-03",
     "source": "windsor.ai",
     "instagram": {
       "account": "moqora_eu",
@@ -32,19 +32,19 @@
     },
     "facebook": {
       "account": "Moqora",
-      "contentViews": 7,
-      "impressions": 7,
+      "contentViews": 6,
+      "impressions": 6,
       "pageViews": 0,
       "interactions": 0,
-      "followers": null,
+      "followers": 0,
       "followersGained": 0
     },
     "linkedin": {
       "account": "Moqora",
-      "impressions": 22,
-      "interactions": 3,
+      "impressions": 19,
+      "interactions": 1,
       "pageViews": 0,
-      "followers": null,
+      "followers": 0,
       "followersDelta": 0
     },
     "note": "Réseaux sociaux synchronisés exclusivement depuis Windsor.ai : Instagram moqora_eu, Facebook Organic Moqora et LinkedIn Organic Moqora. Les valeurs absentes ou non fiables restent null et ne sont pas transformées artificiellement en zéro."
