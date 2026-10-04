@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T02:40:35+02:00",
+  "generatedAt": "2026-10-04T03:39:20+02:00",
   "sourceStatus": {
     "windsor": "connected",
     "clics": "connected"
@@ -7,20 +7,20 @@
   "website": {
     "domain": "moqora.fr",
     "period": "last7days",
-    "visitors": 22,
-    "visits": 22,
-    "pageviews": 32,
-    "bounceRate": 0.8636363636363636,
-    "visitDurationSeconds": 952.2727272727273,
-    "viewsPerVisit": 1.4545454545454546,
+    "visitors": 23,
+    "visits": 23,
+    "pageviews": 33,
+    "bounceRate": 0.8695652173913043,
+    "visitDurationSeconds": 910.8695652173913,
+    "viewsPerVisit": 1.434782608695652,
     "conversionRate": null,
     "note": "Trafic mesuré par Clics sur les 7 derniers jours pour moqora.fr. Conversion indisponible (null). Les taux sont des fractions entre 0 et 1 et la durée est en secondes.",
     "timezone": "Europe/Paris",
     "projectId": "j970816g1aq74sd85rq4n83dz98esp3m"
   },
   "social": {
-    "periodStart": "2026-09-27",
-    "periodEnd": "2026-10-03",
+    "periodStart": "2026-09-28",
+    "periodEnd": "2026-10-04",
     "source": "windsor.ai",
     "instagram": {
       "account": "moqora_eu",
@@ -32,8 +32,8 @@
     },
     "facebook": {
       "account": "Moqora",
-      "contentViews": 6,
-      "impressions": 6,
+      "contentViews": 5,
+      "impressions": 5,
       "pageViews": 0,
       "interactions": 0,
       "followers": null,
@@ -41,8 +41,8 @@
     },
     "linkedin": {
       "account": "Moqora",
-      "impressions": 19,
-      "interactions": 1,
+      "impressions": 13,
+      "interactions": 0,
       "pageViews": 0,
       "followers": null,
       "followersDelta": 0
