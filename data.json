@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T04:42:19+02:00",
+  "generatedAt": "2026-10-04T06:36:48+02:00",
   "sourceStatus": {
     "windsor": "connected",
     "clics": "connected"
@@ -19,8 +19,8 @@
     "projectId": "j970816g1aq74sd85rq4n83dz98esp3m"
   },
   "social": {
-    "periodStart": "2026-09-27",
-    "periodEnd": "2026-10-03",
+    "periodStart": "2026-09-28",
+    "periodEnd": "2026-10-04",
     "source": "windsor.ai",
     "instagram": {
       "account": "moqora_eu",
@@ -32,8 +32,8 @@
     },
     "facebook": {
       "account": "Moqora",
-      "contentViews": 6,
-      "impressions": 6,
+      "contentViews": 5,
+      "impressions": 5,
       "pageViews": 0,
       "interactions": 0,
       "followers": null,
@@ -41,8 +41,8 @@
     },
     "linkedin": {
       "account": "Moqora",
-      "impressions": 19,
-      "interactions": 1,
+      "impressions": 13,
+      "interactions": 0,
       "pageViews": 0,
       "followers": null,
       "followersDelta": 0
