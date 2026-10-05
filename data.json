@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T19:00:00+02:00",
+  "generatedAt": "2026-10-05T20:00:00+02:00",
   "sourceStatus": {
     "windsor": "connected",
     "clics": "connected"
@@ -19,11 +19,11 @@
     "projectId": "j970816g1aq74sd85rq4n83dz98esp3m"
   },
   "social": {
-    "periodStart": "2026-09-29",
-    "periodEnd": "2026-10-05",
+    "period": "last7days",
     "source": "windsor.ai",
     "instagram": {
       "account": "moqora_eu",
+      "accountId": "17841433845877044",
       "reach": 5,
       "views": 19,
       "interactions": 2,
@@ -32,8 +32,9 @@
     },
     "facebook": {
       "account": "Moqora",
-      "contentViews": 4,
-      "impressions": 4,
+      "accountId": "1304107246122236",
+      "contentViews": null,
+      "impressions": 5,
       "pageViews": 0,
       "interactions": 0,
       "followers": null,
@@ -41,13 +42,14 @@
     },
     "linkedin": {
       "account": "Moqora",
+      "accountId": "146596236",
       "impressions": 9,
       "interactions": 0,
       "pageViews": 0,
       "followers": null,
       "followersDelta": 0
     },
-    "note": "Réseaux sociaux synchronisés exclusivement depuis Windsor.ai : Instagram moqora_eu, Facebook Organic Moqora et LinkedIn Organic Moqora. Les compteurs lifetime retournés à 0 alors que leur fiabilité est incertaine sont conservés à null ; les métriques journalières réellement retournées à zéro restent à 0."
+    "note": "Réseaux sociaux synchronisés exclusivement depuis Windsor.ai. Les métriques absentes ou les compteurs lifetime retournés à 0 mais jugés non fiables sont stockés à null plutôt que forcés à zéro."
   },
   "catalog": {
     "internalManufacturers": 1000,
