@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T14:00:00+02:00",
+  "generatedAt": "2026-10-05T18:00:00+02:00",
   "sourceStatus": {
     "windsor": "connected",
     "clics": "connected"
@@ -32,8 +32,8 @@
     },
     "facebook": {
       "account": "Moqora",
-      "contentViews": 4,
-      "impressions": 4,
+      "contentViews": 5,
+      "impressions": 5,
       "pageViews": 0,
       "interactions": 0,
       "followers": null,
