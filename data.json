@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T11:00:00+02:00",
+  "generatedAt": "2026-10-05T12:00:00+02:00",
   "sourceStatus": {
     "windsor": "connected",
     "clics": "connected"
@@ -7,12 +7,12 @@
   "website": {
     "domain": "moqora.fr",
     "period": "last7days",
-    "visitors": 22,
-    "visits": 22,
-    "pageviews": 33,
-    "bounceRate": 0.8181818181818182,
-    "visitDurationSeconds": 953.0909090909091,
-    "viewsPerVisit": 1.5,
+    "visitors": 23,
+    "visits": 23,
+    "pageviews": 34,
+    "bounceRate": 0.8260869565217391,
+    "visitDurationSeconds": 911.6521739130435,
+    "viewsPerVisit": 1.4782608695652173,
     "conversionRate": null,
     "note": "Trafic mesuré par Clics sur les 7 derniers jours pour moqora.fr. Conversion indisponible (null). Les taux sont des fractions entre 0 et 1 et la durée est en secondes.",
     "timezone": "Europe/Paris",
