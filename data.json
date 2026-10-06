@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-06T01:00:00+02:00",
+  "generatedAt": "2026-10-06T06:54:00+02:00",
   "sourceStatus": {"windsor":"connected","clics":"connected"},
-  "website": {"domain":"moqora.fr","period":"last7days","visitors":21,"visits":21,"pageviews":32,"bounceRate":0.8095238095238095,"visitDurationSeconds":998.4761904761905,"viewsPerVisit":1.5238095238095237,"conversionRate":null,"timezone":"Europe/Paris","projectId":"j970816g1aq74sd85rq4n83dz98esp3m"},
+  "website": {"domain":"moqora.fr","period":"last7days","visitors":22,"visits":22,"pageviews":33,"bounceRate":0.8181818181818182,"visitDurationSeconds":953.0909090909091,"viewsPerVisit":1.5,"conversionRate":null,"timezone":"Europe/Paris","projectId":"j970816g1aq74sd85rq4n83dz98esp3m"},
   "social": {
     "period":"last7days","source":"windsor.ai",
     "instagram":{"account":"moqora_eu","accountId":"17841433845877044","reach":5,"views":19,"interactions":2,"followers":null,"followersGained":null},
